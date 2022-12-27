@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/robertjvt/ADF_Labs/blob/master/sample-data/moviesDB.csv",
+			"url": "https://raw.githubusercontent.com/robertjvt/ADF_Labs/master/sample-data/moviesDB.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
