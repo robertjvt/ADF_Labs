@@ -1,0 +1,9 @@
+{
+	"name": "robertdfdp-203",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3caee688-3673-4a0f-951e-cdc15916a182",
+		"tenantId": "78ff5534-7a04-4798-979b-a46c61bc0fc0"
+	}
+}
