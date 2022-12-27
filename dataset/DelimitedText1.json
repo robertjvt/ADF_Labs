@@ -2,7 +2,7 @@
 	"name": "DelimitedText1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "HttpServer1",
+			"referenceName": "HttpServer2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,10 +10,11 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://github.com/robertjvt/ADF_Labs/blob/master/sample-data/moviesDB.csv"
+				"relativeUrl": "https://raw.githubusercontent.com/robertjvt/ADF_Labs/master/sample-data/moviesDB.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
+			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
 		"schema": []
